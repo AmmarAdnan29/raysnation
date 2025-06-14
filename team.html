@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Home | Ray's Nation</title>
+  <link rel="icon" href="icon.png" type="image/png">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="brand.png" alt="Ray's Nation Logo">
+      </a>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="team.html">Team</a>
+    </nav>
+  </header>
+
+<style>
+  
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 30px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      height: auto;
+      min-height: 65px;
+    }
+
+    .logo img {
+      height: 59px;
+      display: block;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333333;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #007b5e;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: #222222;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555555;
+      font-weight: 400;
+    }
+
+    .discord-button {
+      margin-top: 40px;
+      display: inline-block;
+      background-color: #5865f2;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      font-weight: 600;
+    }
+
+    .discord-button:hover {
+      background-color: #4752c4;
+    }
+
+    .details {
+      padding: 50px 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .details h2 {
+      color: #007b5e;
+      font-weight: 600;
+    }
+
+    .details p {
+      color: #333333;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .details ul {
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+
+    .details li {
+      font-size: 17px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+      color: #666666;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+
+      .discord-button {
+        padding: 12px 20px;
+        font-size: 16px;
+      }
+    }
+   
+  .team-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  .team-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #222;
+  }
+
+  .team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+
+  .team-member {
+    text-align: center;
+    max-width: 180px;
+  }
+
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #000;
+    background-color: #eee;
+  }
+
+  .team-role {
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  .team-name {
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .team-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>
+
+<div class="team-section">
+  <h2 class="team-title">Meet The Team</h2>
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="ray.png" alt="Owner Ray">
+      <div class="team-role">OWNER</div>
+      <div class="team-name">RAY</div>
+    </div>
+    <div class="team-member">
+      <img src="synthex.png" alt="Web Dev Synthex">
+      <div class="team-role">WEB DEV</div>
+      <div class="team-name">SYNTHEX</div>
+    </div>
+  </div>
+</div>
