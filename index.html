@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title> Home | Ray's Nation</title>
+  <title>Home | Ray's Nation</title>
   <link rel="icon" href="icon.png" type="image/png">
 
   <!-- Google Font -->
@@ -24,13 +24,23 @@
       padding: 5px 30px;
       background-color: #ffffff;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      height: auto;
       min-height: 65px;
     }
 
-    .logo img {
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img.avatar {
+      height: 45px;
+      width: 45px;
+      border-radius: 6px;
+      margin-right: 10px;
+    }
+
+    .logo img.brand {
       height: 59px;
-      display: block;
     }
 
     nav a {
@@ -132,13 +142,16 @@
   </style>
 </head>
 <body>
+
   <header>
     <div class="logo">
       <a href="index.html">
-        <img src="brand.png" alt="Ray's Nation Logo">
+      <img class="avatar" src="raysnation.png" alt="Minecraft Avatar">
+      </a>
+      <a href="index.html">
+        <img class="brand" src="brand.png" alt="Ray's Nation Logo">
       </a>
     </div>
-
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
