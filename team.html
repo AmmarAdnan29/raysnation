@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title> Team | Ray's Nation</title>
-  <link rel="icon" href="icon.png" type="image/png">
+  <title> Home | Ray's Nation</title>
+  <link rel="icon" href="raysnation.png" type="image/png">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -48,9 +48,20 @@
       min-height: 65px;
     }
 
-    .logo img {
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img.avatar {
+      height: 45px;
+      width: 45px;
+      border-radius: 6px;
+      margin-right: 10px;
+    }
+
+    .logo img.brand {
       height: 59px;
-      display: block;
     }
 
     nav a {
